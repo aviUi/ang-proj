@@ -1,0 +1,18 @@
+<p>
+  services works!
+</p>
+
+<div class="service-listing">
+  <ul>
+    <li *ngFor="let service of services">
+      <div class="service-box">
+        <h1>
+            {{service.srvName}}
+        </h1>
+        <p>{{service.srvCont}}</p>
+        <button (click)="onSelect(service)">Read more</button>
+      </div>
+    </li>
+
+  </ul>
+</div>

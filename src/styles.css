@@ -1,0 +1,84 @@
+/* You can add global styles to this file, and also import other style files */
+body,html{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #f1f1f1;
+}
+header nav{
+    padding: 15px;
+    text-align: center;
+}
+header nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+header nav ul li a{
+    text-align: center;
+    padding: 8px 18px;
+    background-color:transparent;
+    color: #606e69;
+    display: block;
+    margin: 0 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header nav ul li a:hover,
+header nav ul li a:focus,
+header nav ul li a.active{
+    text-align: center;
+    padding: 8px 18px;
+    background-color: #d1d1d1;
+    color: #00b4ff;
+    display: block;
+    margin: 0 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.service-box{
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.service-box h1{
+    font-size: 22px!important;
+    margin: 15px 0 15px 0;
+}
+.service-box p{
+    font-size: 14px;
+    margin: 0 0 15px 0;
+}
+.service-box a{
+    text-decoration: none;
+    color: teal;
+    display: block;
+    padding: 15px;
+}
+.service-listing{
+    display: block;
+}
+.service-listing ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.service-listing ul li{
+    display: inline-block;
+    width: 31.1%;
+    padding: 0;
+    margin: 0 15px 25px 15px;
+}
